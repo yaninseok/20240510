@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML Title</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>기본적인 리스트</h1>
+        <ul>
+            <li>卵(3個)</li>
+            <li>しょうゆ(大さじ1)</li>
+            <li>みりん(大さじ1)</li>
+            <li>塩(少々)</li>
+           <!-- <li>
+                <ul>
+                    <li>あ</li>
+                    <li>い</li>
+                    <li>う</li>
+                    <li>え</li>
+                
+                </ul>
+            </li>-->
+           
+
+        </ul>
+        <h2> 번호가 붙은 리스트 </h2>
+        <ol>
+            <li>어쩌라는건지 하나도 모르겠다</li>
+            <li>대충 이런 내용 적으면 되겠지?</li>
+            <li>리스트 채우면 번호로 생성되며</li>
+            <li>리스트 앞에 번호가 생길테니까</li>
+
+        </ol>
+        <h3>테이블</h3>
+        <table border="1">
+            <tr>
+              <th>プラン名</th>
+              <th>料金</th>
+            </tr>
+            <tr>
+              <td>わくわくプラン</td>
+              <td>月額2,900円</td>
+            </tr>
+            <tr>
+              <td>にこにこプラン</td>
+              <td>月額1,900円</td>
+            </tr>
+          </table>
+          <table border="1">
+            <tr>
+              <th>line1</th>
+              <th>line2</th>
+            </tr>
+            <tr>
+              <td>line3</td>
+              <td>line4</td>
+            </tr>
+            <tr>
+              <td>line5</td>
+              <td>line6</td>
+            </tr>
+          </table>
+        </table>
+        <table border="1">
+          <tr>
+            <th colspan="2">line1</th>
+            
+          </tr>
+          <tr>
+            <td rowspan="2">line3</td>
+            <td>line4</td>
+          </tr>
+          <tr>
+            <td>line5</td>
+          </tr>
+        </table>
+        <form>
+            <h3>text</h3>
+            <p>이름 : <input type="text" placeholder="yang minseok"></p>
+            <p>이메일 주소 :<input type="email"></p>
+            <p>전화번호 :<input type="tel"></p>
+            <p>성별 : 
+            
+                <input type="radio" name="gender" value="남">남
+                <input type="radio" name="gender" value="여">여
+                <input type="radio" name="gender" value="그 외"> 그 외
+            </p>
+            아침 밥은 먹었습니까?
+            <p><input type="radio" name="bf" value="예">예 </p>
+            <p><input type="radio" name="bf" value="아니오">아니오 </p>
+            <p><button type="submit">송신</button></p>
+            <button type="reset">리셋</button>
+            <p>  좋아하는색 :  
+                <input type="checkbox" name="color" value="빨">빨
+                <input type="checkbox" name="color" value="파">파
+                <input type="checkbox" name="color" value="초">초
+                <input type="checkbox" name="color" value="검">검
+            
+            </p>
+            
+            bloodtype
+            <select name="bloodtype">
+            
+                <option value="A">A</option>    
+                <option value="B">B</option>    
+                <option value="O">O</option>    
+                <option value="AB">AB</option>    
+            </select>
+        </form>
+        
+    </body>
+
+</html>
