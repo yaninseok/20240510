@@ -1,0 +1,16 @@
+@charset "utf-8";
+body{
+    margin-bottom: 200px;
+}
+
+ul li{
+    list-style-type: square;
+}
+
+ol li{
+    list-style-type: lower-greek;
+}
+th{
+    background-color: rgb(105, 153, 195);
+    color: aqua;
+}
